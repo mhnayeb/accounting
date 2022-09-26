@@ -1,0 +1,52 @@
+@import url(./assets/css//font.css);
+:root{
+  --bacground: #283747;
+  --bacground-2: #34495e;
+  --yellow: #f5ca1e;
+  --width: 1400px;
+  --red: rgb(253, 29, 29)
+}
+
+*{
+  direction: rtl;
+  font-family: IRANSansX;
+}
+
+.d__flex{
+  display: flex;
+}
+
+.column__row{
+  flex-direction: column;
+}
+
+.align_items_center{
+  align-items: center;
+}
+
+.justify_content_center{
+  justify-content: center;
+}
+
+.vpd-header{
+  background-color: var(--bacground) !important;
+}
+
+.vpd-day-effect{
+  background-color: var(--yellow) !important;
+}
+
+.vpd-day-text{
+  color: var(--bacground) !important;
+}
+
+.vpd-actions button{
+  color: var(--yellow) !important;
+  background-color: var(--bacground) !important;
+  border-radius: 10px !important;
+  margin-left: 5px !important;
+}
+
+.vpd-controls{
+  color: var(--bacground);
+}
